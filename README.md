@@ -7,7 +7,7 @@ CodeBook.md describes how to use the run_analysis script, what data goes into it
 
 run_analysis.R contains all the code to run the analysis required by the project.
 
-The output of the run_analysis.R is the Final_Data_Table.txt file.
+The output of the run_analysis.R is the tidydata.txt file.
 
 Here is the assignment:
 
