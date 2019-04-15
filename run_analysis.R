@@ -1,7 +1,5 @@
 # File Name: run_analysis.R
 
-# Overview: This set of code will download 
-
 # Import library for groupby in step 5
 library(dplyr)
 
