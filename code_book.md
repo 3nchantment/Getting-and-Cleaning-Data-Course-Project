@@ -17,3 +17,5 @@ This project will do the following:
 5) Group the data by activity and subject and then take the mean at that level of detail for each variable.
 
 6) Store the data to the "Final_Data_Table.txt" file.
+
+You can download the run_analysis.R script and run it with R or Rstudio to create the Final_Data_Table.txt file.
