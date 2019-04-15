@@ -84,6 +84,6 @@ names(subset_combined_tables_labeled)<-gsub("tBody", "TimeBody", names(subset_co
 group_data <- group_by(subset_combined_tables_labeled, subjectId, activityName)
 group_summary <- summarise_all(group_data, list(mean))
 
-# 6) Store the data to the "Final_Data_Table.txt" file.
+# 6) Store the data to the "tidydata.txt" file.
 
 write.table(group_summary, "tidydata.txt", row.name=FALSE)
