@@ -88,4 +88,4 @@ group_summary <- summarise_all(group_data, list(mean))
 
 # 6) Store the data to the "Final_Data_Table.txt" file.
 
-write.table(group_summary, "Final_Data_Table.txt", row.name=FALSE)
+write.table(group_summary, "tidydata.txt", row.name=FALSE)
