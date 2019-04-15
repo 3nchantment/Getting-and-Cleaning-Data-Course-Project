@@ -12,10 +12,8 @@ This project will do the following:
 
 3) Extract only the measurements on the mean and standard deviation for each measurement from the data set.
 
-4) Merge activity names to Id's to be more descriptive.
+4) Merge activity names to Id's to be more descriptiv and use pattern matching and replacing to rename variables with more descriptive variable names.
 
-5) Use pattern matching and replacing to rename variables with more descriptive variable names.
+5) Group the data by activity and subject and then take the mean at that level of detail for each variable.
 
-6) Group the data by activity and subject and then take the mean at that level of detail for each variable.
-
-7) Store the data to the "Final_Data_Table.txt" file.
+6) Store the data to the "Final_Data_Table.txt" file.
