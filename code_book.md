@@ -20,7 +20,10 @@ This project will do the following:
 
 You can download the run_analysis.R script and run it with R or Rstudio to create the Final_Data_Table.txt file.
 
-x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files that the code reads\n
+x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files that the code reads
+
 subset_combined_tables and subset_combined_tables_labeled contains the merged datasets where labeled has the activity name added
+
 group_data contains sensor data after it has been grouped by activity and subject while group_summary contains the average for each sensor for each subject/activity group so you can understand the average measurement for that sensor for that activity for that group
+
 This allows you to gain an understand about a subjects state during a given activity.
